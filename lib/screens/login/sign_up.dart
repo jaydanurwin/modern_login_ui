@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:modern_login_ui/screens/home/home.dart';
-import 'package:modern_login_ui/widgets/custom_circle_button.dart';
 
 class SignUp extends StatefulWidget {
   final Function toggleLogin;
@@ -17,18 +15,20 @@ class _SignUpState extends State<SignUp> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Theme.of(context).backgroundColor,
-      body: ListView(
-        padding: EdgeInsets.symmetric(horizontal: 32.0),
-        children: <Widget>[
-          Container(
-            height: MediaQuery.of(context).size.height * 0.85,
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [],
+      body: SafeArea(
+        child: ListView(
+          padding: EdgeInsets.symmetric(horizontal: 32.0),
+          children: <Widget>[
+            Container(
+              height: MediaQuery.of(context).size.height * 0.85,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
