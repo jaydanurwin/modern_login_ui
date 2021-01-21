@@ -38,7 +38,7 @@ class _SignUpState extends State<SignUp> {
                         height: 50,
                       ),
                       Text(
-                        'Sign Up',
+                        'Signup',
                         style: Theme.of(context)
                             .textTheme
                             .headline2
