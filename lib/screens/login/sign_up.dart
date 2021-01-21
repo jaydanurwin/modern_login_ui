@@ -19,7 +19,16 @@ class _SignUpState extends State<SignUp> {
       backgroundColor: Theme.of(context).backgroundColor,
       body: ListView(
         padding: EdgeInsets.symmetric(horizontal: 32.0),
-        children: <Widget>[],
+        children: <Widget>[
+          Container(
+            height: MediaQuery.of(context).size.height * 0.85,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [],
+            ),
+          ),
+        ],
       ),
     );
   }
