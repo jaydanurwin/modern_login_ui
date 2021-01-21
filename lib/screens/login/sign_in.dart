@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:modern_login_ui/screens/home/home.dart';
-import 'package:modern_login_ui/widgets/custom_circle_button.dart';
 
 class SignIn extends StatefulWidget {
   final Function toggleLogin;
